@@ -1,0 +1,21 @@
+/* CSS declarations go here */
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#stats {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+
+#debug {
+  position: absolute;
+  bottom: 0;
+  z-index: 100
+  right: auto;
+  color: white;
+  background-color: #333333;
+}
